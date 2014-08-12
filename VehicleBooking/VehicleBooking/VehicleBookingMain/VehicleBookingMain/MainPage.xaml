@@ -1,5 +1,6 @@
 ﻿<Window x:Class="VehicleBookingMain.MainPage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainPage"  WindowStartupLocation="CenterScreen" Height="600" Width="1200">
     <Grid>
