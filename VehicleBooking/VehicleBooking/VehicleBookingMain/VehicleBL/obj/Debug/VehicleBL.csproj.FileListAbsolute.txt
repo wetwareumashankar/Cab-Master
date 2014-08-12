@@ -16,4 +16,3 @@ D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\bin\Debug\VehicleBL.pdb
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\obj\Debug\VehicleBL.dll
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\obj\Debug\VehicleBL.pdb
-D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\obj\Debug\VehicleBL.csprojResolveAssemblyReference.cache
