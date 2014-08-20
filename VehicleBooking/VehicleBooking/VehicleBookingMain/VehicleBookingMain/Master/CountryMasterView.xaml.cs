@@ -32,27 +32,30 @@ namespace VehicleBookingMain.Master
             dataGrid1.VerticalAlignment = System.Windows.VerticalAlignment.Top;
             grdField.Children.Add(dataGrid1);
             Grid.SetColumn(dataGrid1, 1);
-            //BindGrid();
+           // BindGrid();
             loadField();
         }
+        Xceed.Wpf.Toolkit.WatermarkTextBox txbCountryCode;
+        Xceed.Wpf.Toolkit.WatermarkTextBox txbCountryName;
+        Xceed.Wpf.Toolkit.WatermarkTextBox txbISDCode;
         void loadField()
         {
             StackPanel st = new StackPanel();
-            Xceed.Wpf.Toolkit.WatermarkTextBox water = new Xceed.Wpf.Toolkit.WatermarkTextBox();
-            water.Width = 200;
-            water.Margin = new Thickness(0, 10, 0,10);
-            water.Watermark = "Country Code";
-            st.Children.Add(water);
-            Xceed.Wpf.Toolkit.WatermarkTextBox water2 = new Xceed.Wpf.Toolkit.WatermarkTextBox();
-            water2.Width = 200;
-            water2.Watermark = "Country Name";
-            water2.Margin = new Thickness(0, 10,0,10);
-            st.Children.Add(water2);
-            Xceed.Wpf.Toolkit.WatermarkTextBox water3 = new Xceed.Wpf.Toolkit.WatermarkTextBox();
-            water3.Width = 200;
-            water3.Watermark = "ISD Code";
-            water3.Margin = new Thickness(0, 10, 0, 10);
-            st.Children.Add(water3);
+            txbCountryCode = new Xceed.Wpf.Toolkit.WatermarkTextBox();
+            txbCountryCode.Width = 200;
+            txbCountryCode.Margin = new Thickness(0, 10, 0, 10);
+            txbCountryCode.Watermark = "Country Code";
+            st.Children.Add(txbCountryCode);
+            txbCountryName = new Xceed.Wpf.Toolkit.WatermarkTextBox();
+            txbCountryName.Width = 200;
+            txbCountryName.Watermark = "Country Name";
+            txbCountryName.Margin = new Thickness(0, 10, 0, 10);
+            st.Children.Add(txbCountryName);
+            txbISDCode = new Xceed.Wpf.Toolkit.WatermarkTextBox();
+            txbISDCode.Width = 200;
+            txbISDCode.Watermark = "ISD Code";
+            txbISDCode.Margin = new Thickness(0, 10, 0, 10);
+            st.Children.Add(txbISDCode);
             StackPanel stpanal = new StackPanel();
             stpanal.Orientation = Orientation.Horizontal;
             stpanal.Margin = new Thickness(20);
@@ -61,16 +64,16 @@ namespace VehicleBookingMain.Master
             bt.Name = "btnSubmit";
             bt.Click += bt_Click;
             bt.Style = Application.Current.FindResource("MetroButtonSubmit") as Style;
-            
-           // bt.Margin = new Thickness(0, 10, 0, 10);
+
+            // bt.Margin = new Thickness(0, 10, 0, 10);
             bt.Margin = new Thickness(0, 0, 10, 0);
             Button btcncle = new Button();
             btcncle.Style = Application.Current.FindResource("MetroButtonClose") as Style;
 
-            btcncle.Margin = new Thickness(30,0 , 0,0);
+            btcncle.Margin = new Thickness(30, 0, 0, 0);
             stpanal.Children.Add(bt);
             stpanal.Children.Add(btcncle);
-           
+
             st.Children.Add(stpanal);
 
 
@@ -82,9 +85,9 @@ namespace VehicleBookingMain.Master
             CountryMasterDataService countryDs = new CountryMasterDataService();
             CountryMaster countryBL = new CountryMaster();
             countryBL.CountryId = -1;
-            countryBL.CountryCode = txtCCode.Text;
-            countryBL.CountryName = txtCname.Text;
-            countryBL.ISDNo = txtISDCode.Text;
+            countryBL.CountryCode = txbCountryCode.Text;
+            countryBL.CountryName = txbCountryName.Text;
+            countryBL.ISDNo = txbISDCode.Text;
             List<CountryMaster> countryList = countryDs.Country_Insert(countryBL);
             dataGrid1.ItemsSource = countryList;
             countryBL = null;

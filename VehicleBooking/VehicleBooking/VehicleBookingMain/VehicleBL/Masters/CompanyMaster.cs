@@ -22,5 +22,6 @@ namespace VehicleBL.Masters
         public string CompanyWebsite { get; set; }
         public string CompanyAddress { get; set; }
         public DateTime CreatedDate { get; set; }
+        public bool IsActive { get; set; }
     }
 }

@@ -49,3 +49,14 @@ D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBo
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\VehicleBookingMain.csproj.GenerateResource.Cache
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\App.baml
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Icons.baml
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\StateMater.baml
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\StateMater.g.cs
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\VehicleBookingMain_MarkupCompile.lref
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\DistricMaster.baml
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\DistricMaster.g.cs
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\Citymaster.baml
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\Citymaster.g.cs
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\AreaMaster.baml
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\AreaMaster.g.cs
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\CompanyMaster.baml
+D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBookingMain\obj\x86\Debug\Master\CompanyMaster.g.cs

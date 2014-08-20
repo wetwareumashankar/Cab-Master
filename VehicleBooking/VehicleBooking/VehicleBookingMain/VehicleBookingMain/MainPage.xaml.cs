@@ -23,6 +23,8 @@ namespace VehicleBookingMain
         {
             InitializeComponent();
             grdMaster.Children.Add(new CountryMasterView());
+         //   Countrymaster.Visibility = System.Windows.Visibility.Visible;
+         //   Statemaster.Visibility = System.Windows.Visibility.Collapsed;
         }
 
         private void Border_MouseEnter(object sender, MouseEventArgs e)
@@ -33,6 +35,47 @@ namespace VehicleBookingMain
         private void Border_MouseLeave(object sender, MouseEventArgs e)
         {
 
+        }
+
+        private void brdGeoMaster_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            grdMaster.Children.Clear();
+            grdMaster.Children.Add(new CountryMasterView());
+          //  Countrymaster.Visibility = System.Windows.Visibility.Visible;
+            //Statemaster.Visibility = System.Windows.Visibility.Collapsed;
+        }
+
+        private void brdUserMater_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            grdMaster.Children.Clear();
+            grdMaster.Children.Add(new StateMater());
+          //  Countrymaster.Visibility = System.Windows.Visibility.Visible;
+            //Statemaster.Visibility = System.Windows.Visibility.Collapsed;
+        }
+        
+        private void brdCabMaster_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            grdMaster.Children.Clear();
+            grdMaster.Children.Add(new DistricMaster());
+        }
+
+        private void brdDriverMater_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            grdMaster.Children.Clear();
+
+            grdMaster.Children.Add(new Citymaster());
+        }
+
+        private void brdBookingMaster_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            grdMaster.Children.Clear();
+            grdMaster.Children.Add(new AreaMaster());
+        }
+
+        private void brdInvoiceMaster_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            grdMaster.Children.Clear();
+            grdMaster.Children.Add(new CompanyMaster());
         }
     }
 }

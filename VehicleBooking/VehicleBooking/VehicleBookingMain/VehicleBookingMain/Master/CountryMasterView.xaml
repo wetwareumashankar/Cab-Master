@@ -22,19 +22,6 @@
             
 
         </Grid>
-        <Grid Margin="20 0 0 0" Visibility="Collapsed">
-
-
-            
-
-            <Label Content="Country Code" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" />
-            <TextBox Height="23" HorizontalAlignment="Right" Margin="0,12,148,0" Name="txtCCode" VerticalAlignment="Top" Width="234" />
-            <Label Content="Country Name" Height="28" HorizontalAlignment="Left" Margin="10,47,0,0" Name="label2" VerticalAlignment="Top" />
-            <TextBox Height="23" HorizontalAlignment="Right" Margin="0,47,150,0" Name="txtCname" VerticalAlignment="Top" Width="234" />
-            <Label Content="ISD Code" Height="28" HorizontalAlignment="Left" Margin="10,84,0,0" Name="label3" VerticalAlignment="Top" />
-            <TextBox Height="23" HorizontalAlignment="Right" Margin="0,84,150,0" Name="txtISDCode" VerticalAlignment="Top" Width="234" />
-            <Button Content="Submit" Height="23" HorizontalAlignment="Left" Margin="119,126,0,0" Name="button1" VerticalAlignment="Top" Width="96" Click="button1_Click" />
-            <!--<DataGrid AutoGenerateColumns="True" MinHeight="97" HorizontalAlignment="Left" Margin="12,172,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="461" />-->
-        </Grid>
+         
     </Grid>
 </UserControl>

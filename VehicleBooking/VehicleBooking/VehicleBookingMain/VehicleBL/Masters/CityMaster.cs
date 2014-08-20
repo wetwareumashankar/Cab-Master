@@ -10,8 +10,9 @@ namespace VehicleBL.Masters
         public int CityId { get; set; }
         public int DistrictId { get; set; }
         public string CityName { get; set; }
-        public string CountryName { get; set; }
-        public string StateName { get; set; }
+        //public string CountryName { get; set; }
+        //public string StateName { get; set; }
         public string DistrictName { get; set; }
+        public bool IsActive { get; set; }
     }
 }

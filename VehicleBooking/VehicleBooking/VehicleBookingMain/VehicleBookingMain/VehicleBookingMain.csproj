@@ -63,8 +63,23 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Master\AreaMaster.xaml.cs">
+      <DependentUpon>AreaMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Citymaster.xaml.cs">
+      <DependentUpon>Citymaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master\CompanyMaster.xaml.cs">
+      <DependentUpon>CompanyMaster.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Master\CountryMasterView.xaml.cs">
       <DependentUpon>CountryMasterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master\DistricMaster.xaml.cs">
+      <DependentUpon>DistricMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Master\StateMater.xaml.cs">
+      <DependentUpon>StateMater.xaml</DependentUpon>
     </Compile>
     <Compile Include="StateMaster.xaml.cs">
       <DependentUpon>StateMaster.xaml</DependentUpon>
@@ -89,7 +104,27 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Master\AreaMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Master\Citymaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Master\CompanyMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Master\CountryMasterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Master\DistricMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Master\StateMater.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

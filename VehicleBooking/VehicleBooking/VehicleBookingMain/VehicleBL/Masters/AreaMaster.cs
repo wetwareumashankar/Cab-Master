@@ -15,9 +15,10 @@ namespace VehicleBL.Masters
         public string Latitude { get; set; }
         public DateTime CreatedDate { get; set; }
 
-        public string CountryName { get; set; }
-        public string StateName { get; set; }
-        public string DistrictName { get; set; }
+        //public string CountryName { get; set; }
+        //public string StateName { get; set; }
+        //public string DistrictName { get; set; }
         public string CityName { get; set; }
+        public bool IsActive { get; set; }
     }
 }

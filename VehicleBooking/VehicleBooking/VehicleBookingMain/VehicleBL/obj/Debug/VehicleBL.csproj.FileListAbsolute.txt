@@ -16,3 +16,8 @@ D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\bin\Debug\VehicleBL.pdb
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\obj\Debug\VehicleBL.dll
 D:\Wetware\Cab-Master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\obj\Debug\VehicleBL.pdb
+E:\New Project\WetWare Systems\Working Project\Cab management System\Cab-Master-master\Cab-Master-master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\bin\Debug\VehicleBL.dll
+E:\New Project\WetWare Systems\Working Project\Cab management System\Cab-Master-master\Cab-Master-master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\bin\Debug\VehicleBL.pdb
+E:\New Project\WetWare Systems\Working Project\Cab management System\Cab-Master-master\Cab-Master-master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\obj\Debug\ResolveAssemblyReference.cache
+E:\New Project\WetWare Systems\Working Project\Cab management System\Cab-Master-master\Cab-Master-master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\obj\Debug\VehicleBL.dll
+E:\New Project\WetWare Systems\Working Project\Cab management System\Cab-Master-master\Cab-Master-master\VehicleBooking\VehicleBooking\VehicleBookingMain\VehicleBL\obj\Debug\VehicleBL.pdb

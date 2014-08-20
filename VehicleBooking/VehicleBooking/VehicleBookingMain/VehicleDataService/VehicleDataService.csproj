@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="Masters\VehicleUserDataService.cs" />
     <Compile Include="MySqlDataServiceBase.cs" />
     <Compile Include="DataServiceBase.cs" />
     <Compile Include="Masters\AreaMasterDataService.cs" />

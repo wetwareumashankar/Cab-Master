@@ -1,5 +1,6 @@
 ﻿<Window x:Class="VehicleBookingMain.MainPage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:master="clr-namespace:VehicleBookingMain.Master"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainPage"  WindowStartupLocation="CenterScreen" Height="600" Width="1200">
@@ -11,27 +12,32 @@
             </Grid.RowDefinitions>
            
             <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
-                <Border  MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5" CornerRadius="10 0 0 10" BorderBrush="LightBlue" >
+                <Border x:Name="brdGeoMaster"   MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5" CornerRadius="10 0 0 10" BorderBrush="LightBlue" MouseLeftButtonDown="brdGeoMaster_MouseLeftButtonDown" >
                     <TextBlock Text="Geo Master" Foreground="LightBlue" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Border>
-                <Border MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" >
+                <Border x:Name="brdUserMater" MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" MouseLeftButtonDown="brdUserMater_MouseLeftButtonDown" >
                     <TextBlock Text="User Master" Foreground="LightBlue" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Border>
-                <Border MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" >
+                <Border x:Name="brdCabMaster" MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" MouseLeftButtonDown="brdCabMaster_MouseLeftButtonDown" >
                     <TextBlock Text="Cab Master" Foreground="LightBlue" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Border>
-                <Border MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" >
+                <Border x:Name="brdDriverMater" MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" MouseLeftButtonDown="brdDriverMater_MouseLeftButtonDown" >
                     <TextBlock Text="Driver Master" Foreground="LightBlue" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Border>
-                <Border MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" >
+                <Border x:Name="brdBookingMaster" MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" MouseLeftButtonDown="brdBookingMaster_MouseLeftButtonDown" >
                     <TextBlock Text="Booking Master" Foreground="LightBlue" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Border>
-                <Border MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" CornerRadius="0 10 10 0" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" >
+                <Border x:Name="brdInvoiceMaster" MouseEnter="Border_MouseEnter" MouseLeave="Border_MouseLeave" CornerRadius="0 10 10 0" Height="50" Width="150" Background="AliceBlue" BorderThickness=".5"  BorderBrush="LightBlue" MouseLeftButtonDown="brdInvoiceMaster_MouseLeftButtonDown" >
                     <TextBlock Text="Invoice Master" Foreground="LightBlue" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Border>
             </StackPanel>
             
-            <Grid Grid.Row="1"  HorizontalAlignment="Left" x:Name="grdMaster"/>
+            <Grid Grid.Row="1"  HorizontalAlignment="Left">
+                <Grid  x:Name="grdMaster"/>
+                <!--<Grid  x:Name="grdStateMaster"/>-->
+                <!--<master:CountryMasterView x:Name="Countrymaster" />-->
+                <!--<master:StateMater x:Name="Statemaster" />-->
+            </Grid>
         </Grid> 
     </Grid>
 </Window>

@@ -14,5 +14,6 @@ namespace VehicleBL.Masters
         public string Model { get; set; }
         public string VehicleNo { get; set; }
         public string Color { get; set; }
+        public bool IsActive { get; set; }
     }
 }
